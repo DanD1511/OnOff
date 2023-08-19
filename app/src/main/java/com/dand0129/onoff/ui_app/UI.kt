@@ -1,6 +1,7 @@
 package com.dand0129.onoff.ui_app
 
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -22,6 +23,9 @@ class UI () {
 
     @Composable
     fun UI_app(){
-        slider.SliderExample()
+        Box() {
+            slider.SliderExample()
+        }
+
     }
 }
